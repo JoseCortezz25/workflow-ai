@@ -77,6 +77,8 @@ Is component domain-specific?
 
 Create plan at `.claude/plans/component-ui-{name}-plan.md`:
 
+**IMPORTANT**: The plan must be VERY SPECIFIC and COMPLETE. Include ALL details needed for implementation. The code-executor will implement exactly what's specified, so provide exact paths, exact types, exact text keys, exact styling, exact structure, etc. Do not omit any information.
+
 ```markdown
 # {ComponentName} - Component UI Plan
 
@@ -248,7 +250,8 @@ export function {ComponentName}({
 
 **Next Steps**: 
 - component-logic-planner can now plan related logic (if needed)
-- Parent reviews plan, then implements
+- code-executor will implement this plan exactly as specified
+- Plan must contain ALL details needed for implementation
 ```
 
 ## Rules
@@ -263,6 +266,7 @@ export function {ComponentName}({
 8. ALWAYS append to context (never overwrite)
 9. BE SPECIFIC: exact paths, exact naming, exact structure
 10. FOCUS on visual/UI aspects only - logic is handled by component-logic-planner
+11. **CRITICAL**: Plans must be VERY SPECIFIC and COMPLETE - include ALL details needed for implementation without losing information. The code-executor will implement exactly what's in the plan, so every detail matters (exact prop types, exact file paths, exact text keys, exact styling classes, exact component structure, etc.)
 
 ---
 

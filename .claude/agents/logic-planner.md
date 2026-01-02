@@ -1,5 +1,5 @@
 ---
-name: component-logic-planner
+name: logic-planner
 description: Logic and business rules architect. Plans hooks, stores, schemas, Server Actions, services, utilities, patterns, and business logic (component-specific or general domain logic).
 model: sonnet
 color: purple
