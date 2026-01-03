@@ -659,6 +659,7 @@ app/
 10. BE SPECIFIC: exact file paths, exact component types (Server/Client)
 11. COORDINATE with domain architect for data integration
 12. KEEP Client Components at leaf nodes when possible
+13. **CRITICAL CONCISION**: Be extremely concise. Sacrifice semantics for the sake of concision. Plans should be dense with information, avoiding verbose explanations. Use bullet points, short sentences, and abbreviations when clear.
 
 ---
 
